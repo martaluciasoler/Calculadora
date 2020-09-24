@@ -1,0 +1,83 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+.calculadora {
+  background: url(./img/cmatrix.png);
+  width: fit-content;
+  margin: auto;
+  margin-top: 35px;
+}
+
+.sr {
+  padding: 0px 18px 18px 18px;
+  background: url(./img/cmatrix.png);
+}
+
+.sr button {
+  width: 100%;
+  background-color: rgb(38, 247, 45);
+  color: #fff;
+  border: none;
+  font-size: 50px;
+  padding: 0px;
+  border-radius: 15px;
+}
+
+.teclas {
+  display: flex;
+}
+
+.pantalla {
+  padding: 18px 18px 0px 18px;
+}
+
+.numeros {
+  padding: 15px;
+}
+.op {
+  padding: 18px 18px 18px 9px;
+}
+
+#resultado {
+  background-color: white;
+  color: black;
+  padding: 6px;
+  font-family: monospace;
+  font-size: 20px;
+  height: 21px;
+}
+
+.op button {
+  display: block;
+  width: 54px;
+  height: 54px;
+  padding: 9px 15px;
+  background-color: grey;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+}
+
+.numeros div {
+  text-align: center;
+}
+
+.numeros button {
+  border: 0px;
+  background-color: #fff;
+  transition: all 0.09s;
+}
+
+.numeros button:hover {
+  box-shadow: 0px 0px 12px rgb(198, 197, 197);
+}
+
+button {
+  margin: 2px 0px;
+  padding: 15px 15px;
+  font-size: 19px;
+  border-radius: 10px;
+}
